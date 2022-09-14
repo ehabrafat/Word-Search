@@ -1,0 +1,22 @@
+#wordSearch{
+    display: flex;
+}
+
+#grid{
+    border-collapse: collapse;
+    flex: 1;
+}
+
+#words{
+    flex: 1;
+    margin-left: 20px;
+}
+#grid td{
+    border: 1px solid #dfdfdf;
+    padding: 8px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
